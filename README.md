@@ -22,9 +22,9 @@ if(${EXAMPLES})
 which is:
 
 ```cmake
-	    add_executable(dual_arm_synchronously examples/cpp/dual_arm_synchronously.cpp)
-	    target_include_directories(dual_arm_synchronously PUBLIC ${Boost_INCLUDE_DIRS} $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include> $<INSTALL_INTERFACE:include>)
-	    target_link_libraries(dual_arm_synchronously PRIVATE rtde ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY})
+add_executable(dual_arm_synchronously examples/cpp/dual_arm_synchronously.cpp)
+target_include_directories(dual_arm_synchronously PUBLIC ${Boost_INCLUDE_DIRS} $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include> $<INSTALL_INTERFACE:include>)
+target_link_libraries(dual_arm_synchronously PRIVATE rtde ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY})
 ```
 
 **line 339:**change the content:
