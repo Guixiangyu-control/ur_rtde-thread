@@ -27,7 +27,7 @@ target_include_directories(dual_arm_synchronously PUBLIC ${Boost_INCLUDE_DIRS} $
 target_link_libraries(dual_arm_synchronously PRIVATE rtde ${Boost_SYSTEM_LIBRARY} ${Boost_THREAD_LIBRARY})
 ```
 
-**line 339:**change the content:
+*line 339:*change the content:
 
 ```cmake
 set_target_properties(servoj_example forcemode_example speedj_example movej_path_with_blend_example io_example move_async_example move_path_async_example robotiq_gripper_example move_until_contact_example record_data_example PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/bin")
