@@ -10,9 +10,9 @@ dual arm ur5 install the plate synchronously.
 
 you can follow the ur_rtde compile rule. 
 
-###### 1.Set dual_arm_synchronously.cpp in /ur_rtdexxx/example/cpp/dual_arm_synchronously.cpp** 
+###### 1.Set dual_arm_synchronously.cpp in /ur_rtdexxx/example/cpp/dual_arm_synchronously.cpp
 
-###### 2.and then  change the following content in  /ur_rtdexxx/Cmakelists.txt**
+###### 2.and then  change the following content in  /ur_rtdexxx/Cmakelists.txt
 line 275-278:   add the following content behind
 
 ```cmake
